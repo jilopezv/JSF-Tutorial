@@ -1,3 +1,4 @@
+package co.udem.is3.jsfsample.controller;
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean

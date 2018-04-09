@@ -24,6 +24,6 @@
   </listener>
   
   <welcome-file-list>
-  	<welcome-file>navigate.jsf</welcome-file>
+  	<welcome-file>bean-properties.jsf</welcome-file>
   </welcome-file-list>
 </web-app>

@@ -7,8 +7,13 @@
 	<link href="./css/styles.css" rel="stylesheet" type="text/css" />
 </h:head>
 <h:body>
-	<h1 class="title">Result Page 1</h1>
-	<h2>One. Uno. Isa.</h2>
-	<p>Blah, blah, blah.</p>
+	<div align="center">
+		<h1 class="title">Successfully Registered</h1>
+		<ul class="aligned">
+			<li>First name: #{registrationBean.firstName}</li>
+			<li>Last name: #{registrationBean.lastName}</li>
+			<li>Email address: #{registrationBean.emailAddress}</li>
+		</ul>
+	</div>
 </h:body>
 </html>
