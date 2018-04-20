@@ -16,6 +16,7 @@ public class DealBean1 {
   private int count;
   private DailyDeal todaysDeal = DealUtils.todaysDeal();
   private Account account;
+  
   private static AccountLookupService lookupService =
     new AccountSimpleMap();
 
